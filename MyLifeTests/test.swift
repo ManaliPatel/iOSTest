@@ -5,6 +5,8 @@
 //  Created by patelman on 3/11/18.
 //  Copyright © 2018 Apple Inc. All rights reserved.
 //
+import FBSnapshotTestCase
+@testable import MyLife
 
 import XCTest
 
