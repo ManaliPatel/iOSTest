@@ -1,4 +1,6 @@
-node('master') {
+pipeline {
+
+  agent 'master'
 
   stage('checkout') {
     steps {
