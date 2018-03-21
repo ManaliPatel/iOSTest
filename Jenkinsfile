@@ -1,9 +1,10 @@
 node('master') {
 
   stage('checkout') {
+    steps {
     checkout scm
+    }
   }
-
 
   stage('iOS build') {
     steps {
